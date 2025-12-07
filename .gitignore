@@ -39,3 +39,6 @@ cat > .gitattributes <<\"EOF\"
 *.joblib filter=lfs diff=lfs merge=lfs -text
 *.tflite filter=lfs diff=lfs merge=lfs -text
 EOF
+# Dataset folders
+Train/
+Validation/
