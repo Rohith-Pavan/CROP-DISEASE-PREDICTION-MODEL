@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / IDE
+.DS_Store
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Node
+node_modules/
+
+# Data/model artifacts (keep via LFS if needed)
+data/
+logs/
+outputs/
+saved_models/
+
+# Personal/system folders detected in this directory
+Music/
+Pictures/
+Public/
+EOF
+
+cat > .gitattributes <<\"EOF\"
+*.h5 filter=lfs diff=lfs merge=lfs -text
+*.pkl filter=lfs diff=lfs merge=lfs -text
+*.pt filter=lfs diff=lfs merge=lfs -text
+*.onnx filter=lfs diff=lfs merge=lfs -text
+*.ckpt filter=lfs diff=lfs merge=lfs -text
+*.joblib filter=lfs diff=lfs merge=lfs -text
+*.tflite filter=lfs diff=lfs merge=lfs -text
+EOF
