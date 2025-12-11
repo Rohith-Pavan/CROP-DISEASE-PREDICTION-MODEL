@@ -1,0 +1,70 @@
+{
+  "project": "AI-Driven Crop Disease Prediction & Management System",
+  "created_date": "2025-12-07 20:55:10",
+  "classes": [
+    "American Bollworm on Cotton",
+    "Anthracnose on Cotton",
+    "Army worm",
+    "Becterial Blight in Rice",
+    "Brownspot",
+    "Common_Rust",
+    "Cotton Aphid",
+    "Flag Smut",
+    "Gray_Leaf_Spot",
+    "Healthy Maize",
+    "Healthy Wheat",
+    "Healthy cotton",
+    "Leaf Curl",
+    "Leaf smut",
+    "Mosaic sugarcane",
+    "RedRot sugarcane",
+    "RedRust sugarcane",
+    "Rice Blast",
+    "Sugarcane Healthy",
+    "Tungro",
+    "Wheat Brown leaf Rust",
+    "Wheat Stem fly",
+    "Wheat aphid",
+    "Wheat black rust",
+    "Wheat leaf blight",
+    "Wheat mite",
+    "Wheat powdery mildew",
+    "Wheat scab",
+    "Wheat___Yellow_Rust",
+    "Wilt",
+    "Yellow Rust Sugarcane",
+    "bacterial_blight in Cotton",
+    "bollrot on Cotton",
+    "bollworm on Cotton",
+    "cotton mealy bug",
+    "cotton whitefly",
+    "maize ear rot",
+    "maize fall armyworm",
+    "maize stem borer",
+    "pink bollworm in cotton",
+    "red cotton bug",
+    "thirps on  cotton"
+  ],
+  "n_classes": 42,
+  "img_size": [
+    224,
+    224
+  ],
+  "model_test_accuracies": {
+    "Logistic Regression": 0.45164960182025027,
+    "Random Forest": 0.8134243458475541,
+    "Gradient Boosting": 0.7718998862343572,
+    "ResNet50 (Deep Learning)": 0.8907849829351536
+  },
+  "best_model": {
+    "name": "ResNet50 (Deep Learning)",
+    "accuracy": 0.8907849829351536,
+    "target_achieved": false
+  },
+  "dataset_info": {
+    "total_images": 11719,
+    "train_size": 8203,
+    "val_size": 1758,
+    "test_size": 1758
+  }
+}

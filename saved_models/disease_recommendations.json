@@ -1,0 +1,899 @@
+{
+  "American Bollworm on Cotton": {
+    "disease_name": "American Bollworm",
+    "crop_type": "Cotton",
+    "description": "Larvae feed on leaves, squares, and bolls, causing flaring of squares and premature boll shedding.",
+    "symptoms": [
+      "Young larvae feed on leaves",
+      "Older larvae bore into bolls and squares",
+      "Flared squares and premature boll shedding",
+      "Presence of larvae with varying colors on plants"
+    ],
+    "management_steps": [
+      "Spray Indoxacarb 14.5 SC or Spinosad 45 SC",
+      "Apply Emamectin benzoate 5 SG",
+      "Use HaNPV (virus) sprays in early stages",
+      "Install pheromone traps (4/acre) for monitoring"
+    ],
+    "prevention": [
+      "Deep summer ploughing to destroy pupae",
+      "Intercrop with green gram, black gram, or cowpea",
+      "Plant trap crops like marigold or castor",
+      "Avoid monocropping and excessive nitrogen"
+    ]
+  },
+  "Anthracnose on Cotton": {
+    "disease_name": "Anthracnose",
+    "crop_type": "Cotton",
+    "description": "Fungal disease causing reddish-brown spots on leaves and bolls, often leading to boll rot.",
+    "symptoms": [
+      "Small reddish to light brown spots on leaves",
+      "Sunken lesions on bolls",
+      "Lint becomes stained and brittle",
+      "Stem splitting or shredding in severe cases"
+    ],
+    "management_steps": [
+      "Seed treatment with Captan or Thiram",
+      "Foliar spray of Mancozeb or Copper Oxychloride",
+      "Apply Carbendazim at boll formation stage"
+    ],
+    "prevention": [
+      "Use certified disease-free seeds",
+      "Crop rotation with non-host crops",
+      "Remove and burn infected plant debris",
+      "Avoid waterlogging in fields"
+    ]
+  },
+  "Army worm": {
+    "disease_name": "Armyworm",
+    "crop_type": "Maize/General",
+    "description": "Caterpillars feed gregariously on foliage, skeletonizing leaves giving a 'grazed' appearance.",
+    "symptoms": [
+      "Leaves appear skeletonized or ragged",
+      "Sawdust-like frass (droppings) in the whorl",
+      "Larvae often found hiding in whorls during day",
+      "Rapid defoliation of crop"
+    ],
+    "management_steps": [
+      "Spray Emamectin benzoate or Chlorantraniliprole",
+      "Apply poison baits (bran + jaggery + insecticide) in evening",
+      "Use Bt formulations (Bacillus thuringiensis)"
+    ],
+    "prevention": [
+      "Keep fields weed-free",
+      "Deep ploughing to expose pupae",
+      "Monitor for egg masses and young larvae",
+      "Dig trenches around field to stop migration"
+    ]
+  },
+  "Becterial Blight in Rice": {
+    "disease_name": "Bacterial Leaf Blight",
+    "crop_type": "Rice",
+    "description": "Bacterial infection causing wilting of seedlings (Kresek) and yellowing/drying of leaves.",
+    "symptoms": [
+      "Water-soaked lesions with wavy yellow margins",
+      "Lesions enlarge causing leaf drying (blight)",
+      "Milky bacterial ooze drops on young lesions in morning",
+      "Wilting of entire seedling (Kresek phase)"
+    ],
+    "management_steps": [
+      "Spray Copper Oxychloride + Streptocycline",
+      "Drain field water and irrigate with fresh water",
+      "Avoid nitrogen fertilizer application temporarily"
+    ],
+    "prevention": [
+      "Use resistant varieties (e.g., IR20, TKM 6)",
+      "Seed treatment with Streptocycline",
+      "Avoid clipping seedling tips during transplanting",
+      "Destroy weed hosts and infected stubble"
+    ]
+  },
+  "Brownspot": {
+    "disease_name": "Brown Spot",
+    "crop_type": "Rice",
+    "description": "Fungal disease often associated with poor soil nutrition, causing brown oval spots.",
+    "symptoms": [
+      "Oval or circular dark brown spots with halo",
+      "Spots on glumes leading to black kernels",
+      "Leaves dry out and wither in severe cases",
+      "Reduced grain quality and weight"
+    ],
+    "management_steps": [
+      "Spray Mancozeb or Carbendazim",
+      "Apply Propiconazole (Tilt) at booting stage",
+      "Correct soil nutrient deficiencies (Potash/Zinc)"
+    ],
+    "prevention": [
+      "Use disease-free seeds",
+      "Seed treatment with Captan or Thiram",
+      "Apply balanced fertilizers (NPK)",
+      "Maintain proper field sanitation"
+    ]
+  },
+  "Common_Rust": {
+    "disease_name": "Common Rust",
+    "crop_type": "Maize",
+    "description": "Fungal disease causing powdery pustules on leaves, reducing photosynthetic area.",
+    "symptoms": [
+      "Small, powdery, cinnamon-brown pustules on leaves",
+      "Pustules turn black as plant matures",
+      "Chlorosis and premature leaf death",
+      "Pustules appear on both upper and lower leaf surfaces"
+    ],
+    "management_steps": [
+      "Spray Mancozeb or Zineb immediately on symptom appearance",
+      "Use Azoxystrobin or Propiconazole fungicides",
+      "Repeat spray after 15 days if needed"
+    ],
+    "prevention": [
+      "Plant resistant corn hybrids",
+      "Rotate with non-host crops",
+      "Destroy crop residues after harvest",
+      "Plant early to avoid peak disease pressure"
+    ]
+  },
+  "Cotton Aphid": {
+    "disease_name": "Aphids",
+    "crop_type": "Cotton",
+    "description": "Sucking pests that colonize undersides of leaves, excreting honeydew and causing sooty mold.",
+    "symptoms": [
+      "Yellowing and downward curling of leaves",
+      "Shiny, sticky honeydew on leaves",
+      "Black sooty mold growing on honeydew",
+      "Stunted growth and reduced vigor"
+    ],
+    "management_steps": [
+      "Spray Imidacloprid, Acetamiprid, or Dimethoate",
+      "Apply Neem oil (3%) as deterrent",
+      "Wash plants with strong water jet (small scale)"
+    ],
+    "prevention": [
+      "Conserve natural enemies (Ladybugs, Lacewings)",
+      "Avoid excessive nitrogen fertilizer",
+      "Install yellow sticky traps",
+      "Remove weeds acting as alternate hosts"
+    ]
+  },
+  "Flag Smut": {
+    "disease_name": "Flag Smut",
+    "crop_type": "Wheat",
+    "description": "Systemic fungal infection causing grey-black streaks on leaves and stems.",
+    "symptoms": [
+      "Long, raised, grey-black streaks on leaves/sheaths",
+      "Leaves twist, curl, and wither (flag leaf twisted)",
+      "Sooty black spore mass released when streaks rupture",
+      "Stunted plants failing to produce heads"
+    ],
+    "management_steps": [
+      "Seed treatment is the ONLY effective cure (Carboxin)",
+      "Foliar sprays are generally ineffective once infected",
+      "Rogue out and burn infected clumps"
+    ],
+    "prevention": [
+      "Compulsory seed treatment with Vitavax or Bavistin",
+      "Use resistant varieties",
+      "Practice crop rotation (2-3 years)",
+      "Shallow sowing in moist soil"
+    ]
+  },
+  "Gray_Leaf_Spot": {
+    "disease_name": "Gray Leaf Spot",
+    "crop_type": "Maize",
+    "description": "Fungal disease causing rectangular grey lesions, limiting yield in humid conditions.",
+    "symptoms": [
+      "Small, necrotic spots with yellow halos",
+      "Elongated, rectangular grey/tan lesions parallel to veins",
+      "Lesions merge killing entire leaves",
+      "Stalk lodging due to reduced leaf area"
+    ],
+    "management_steps": [
+      "Apply Azoxystrobin or Pyraclostrobin fungicides",
+      "Spray Propiconazole at tasseling stage",
+      "Ensure adequate Potassium levels"
+    ],
+    "prevention": [
+      "Plant resistant hybrids",
+      "Tillage to bury crop residues",
+      "Rotate with soybeans or other non-hosts",
+      "Avoid continuous corn cropping"
+    ]
+  },
+  "Healthy Maize": {
+    "disease_name": "Healthy Maize",
+    "crop_type": "Maize",
+    "description": "Plant appears healthy with no visible signs of disease or pest damage.",
+    "symptoms": [],
+    "management_steps": [
+      "Maintain regular irrigation schedule",
+      "Scout field weekly for early pest signs",
+      "Apply fertilizers as per schedule"
+    ],
+    "prevention": [
+      "Continue good agronomic practices",
+      "Keep field weed-free",
+      "Ensure proper drainage"
+    ]
+  },
+  "Healthy Wheat": {
+    "disease_name": "Healthy Wheat",
+    "crop_type": "Wheat",
+    "description": "Plant appears healthy with no visible signs of disease or pest damage.",
+    "symptoms": [],
+    "management_steps": [
+      "Monitor for rusts and aphids regularly",
+      "Irrigate at critical stages (CRI, Flowering)",
+      "Top dress Nitrogen if required"
+    ],
+    "prevention": [
+      "Maintain field hygiene",
+      "Monitor weather for disease-favorable conditions"
+    ]
+  },
+  "Healthy cotton": {
+    "disease_name": "Healthy Cotton",
+    "crop_type": "Cotton",
+    "description": "Plant appears healthy with no visible signs of disease or pest damage.",
+    "symptoms": [],
+    "management_steps": [
+      "Regular scouting for bollworms and sucking pests",
+      "Maintain cleanliness in the field",
+      "Nutrient management based on soil test"
+    ],
+    "prevention": [
+      "Prevent waterlogging",
+      "Prevent exposure to drift herbicides"
+    ]
+  },
+  "Leaf Curl": {
+    "disease_name": "Leaf Curl Virus",
+    "crop_type": "Cotton",
+    "description": "Viral disease transmitted by whiteflies causing severe curling and stunting.",
+    "symptoms": [
+      "Upward or downward curling of leaves",
+      "Thickening and darkening of veins (vein clearing)",
+      "Leaf enations (outgrowths) on underside",
+      "Stunted growth and reduced boll formation"
+    ],
+    "management_steps": [
+      "Control Whitefly vector (Vector management)",
+      "Spray Acetamiprid, Diafenthiuron, or Dinotefuran",
+      "Apply Neem oil to repel vectors"
+    ],
+    "prevention": [
+      "Grow resistant varieties / hybrids",
+      "Remove weed hosts (e.g., Abutilon)",
+      "Avoid growing cotton near okra or tomato",
+      "Keep field boundary clean"
+    ]
+  },
+  "Leaf smut": {
+    "disease_name": "Leaf Smut",
+    "crop_type": "Rice",
+    "description": "Fungal disease causing small black spots on leaves.",
+    "symptoms": [
+      "Small, leaden-black, slightly raised spots on leaves",
+      "Spots may be angular or rectangular",
+      "Leaves turn yellow and dry in severe cases",
+      "Often occurs late in the season"
+    ],
+    "management_steps": [
+      "Usually minor, no heavy chemical needed",
+      "If severe, spray Propiconazole or Copper Oxychloride",
+      "Apply Potash to boost resistance"
+    ],
+    "prevention": [
+      "Use balanced fertilizers (avoid excess N)",
+      "Clean cultivation",
+      "Destroy infected straw and stubble",
+      "Use resistant varieties"
+    ]
+  },
+  "Mosaic sugarcane": {
+    "disease_name": "Mosaic Disease",
+    "crop_type": "Sugarcane",
+    "description": "Viral disease causing mottled patterns on leaves, transmitted by aphids.",
+    "symptoms": [
+      "Mottled pattern of light and dark green on leaves",
+      "Yellowish chlorotic streaks",
+      "Stunted growth in susceptible varieties",
+      "Reddening of older leaves in severe cases"
+    ],
+    "management_steps": [
+      "No chemical cure for virus",
+      "Control aphid vectors with Imidacloprid or Dimethoate",
+      "Remove and destroy infected clumps (Roguing)"
+    ],
+    "prevention": [
+      "Use certified disease-free setts",
+      "Grow resistant varieties",
+      "Sterilize cutting knives",
+      "Control weeds in and around the field"
+    ]
+  },
+  "RedRot sugarcane": {
+    "disease_name": "Red Rot",
+    "crop_type": "Sugarcane",
+    "description": "The 'Cancer of Sugarcane', causing internal reddening and alcohol smell.",
+    "symptoms": [
+      "Yellowing and drying of 3rd or 4th leaf from top",
+      "Internal stalk tissue turns red with white transverse bands",
+      "Sour alcoholic smell from split canes",
+      "Hollow cavities with ash-colored fungal growth"
+    ],
+    "management_steps": [
+      "Effectively incurable in standing crop",
+      "Immediately dig out and burn infected clumps",
+      "Drench soil with Carbendazim around spot"
+    ],
+    "prevention": [
+      "Use healthy setts from proper nurseries",
+      "Crop rotation (2-3 years) with rice",
+      "Treat setts with Carbendazim before planting",
+      "Avoid ratooning of infected crop"
+    ]
+  },
+  "RedRust sugarcane": {
+    "disease_name": "Red Rust",
+    "crop_type": "Sugarcane",
+    "description": "Fungal disease usually on leaves, causing orange-brown pustules.",
+    "symptoms": [
+      "Small, elongated yellow spots on leaves",
+      "Spots turn orange-brown to red-brown pustules",
+      "Pustules mainly on lower leaf surface",
+      "Severe infection leads to leaf drying"
+    ],
+    "management_steps": [
+      "Spray Mancozeb or Chlorothalonil",
+      "Use Propiconazole or Triadimefon",
+      "Remove lower infected leaves"
+    ],
+    "prevention": [
+      "Grow resistant varieties",
+      "Avoid high Nitrogen and low Potassium",
+      "Provide proper drainage",
+      "Burn trash after harvest"
+    ]
+  },
+  "Rice Blast": {
+    "disease_name": "Rice Blast",
+    "crop_type": "Rice",
+    "description": "Devastating fungal disease affecting leaves, nodes, and panicle necks.",
+    "symptoms": [
+      "Eye-shaped (spindle) spots with grey centers on leaves",
+      "Rotting of neck (Neck Blast) causing whiteheads",
+      "Blackening of nodes (Node Blast)",
+      "Grain chaffiness"
+    ],
+    "management_steps": [
+      "Spray Tricyclazole 75 WP or Isoprothiolane",
+      "Apply Carbendazim or Edifenphos",
+      "Maintain standing water in field"
+    ],
+    "prevention": [
+      "Treat seeds with Tricyclazole or Thiram",
+      "Avoid excessive Nitrogen fertilizers",
+      "Remove weed hosts",
+      "Plant resistant varieties"
+    ]
+  },
+  "Sugarcane Healthy": {
+    "disease_name": "Healthy Sugarcane",
+    "crop_type": "Sugarcane",
+    "description": "Plant appears healthy with no visible signs of disease or pest damage.",
+    "symptoms": [],
+    "management_steps": [
+      "Regular irrigation and trash mulching",
+      "Propping to prevent lodging",
+      "Monitor for borers and pyrilla"
+    ],
+    "prevention": [
+      "Maintain field hygiene",
+      "Earthing up at proper time"
+    ]
+  },
+  "Tungro": {
+    "disease_name": "Tungro Disease",
+    "crop_type": "Rice",
+    "description": "Viral disease transmitted by Green Leafhopper, causing yellowing and stunting.",
+    "symptoms": [
+      "Plants are stunted with reduced tillering",
+      "Leaves turn yellow to orange-yellow from tip",
+      "Young leaves may be mottled",
+      "Delayed flowering and sterile grains"
+    ],
+    "management_steps": [
+      "Focus on vector (Leafhopper) control",
+      "Spray Imidacloprid, Thiamethoxam, or Buprofezin",
+      "Use light traps to catch leafhoppers"
+    ],
+    "prevention": [
+      "Plant resistant varieties (e.g., Vikramarya)",
+      "Synchronous planting in the region",
+      "Plough down infected stubbles immediately",
+      "Apply Neem cake"
+    ]
+  },
+  "Wheat Brown leaf Rust": {
+    "disease_name": "Brown Leaf Rust",
+    "crop_type": "Wheat",
+    "description": "Fungal disease causing orange-brown pustules, most common rust.",
+    "symptoms": [
+      "small, round to oval orange-brown pustules on leaves",
+      "Pustules scattered randomly on leaf surface",
+      "Leaves dry out prematurely",
+      "Reduced grain weight"
+    ],
+    "management_steps": [
+      "Spray Propiconazole (Tilt) or Tebuconazole",
+      "Apply Mancozeb as prophylactic",
+      "Monitor regularly for early signs"
+    ],
+    "prevention": [
+      "Grow resistant varieties",
+      "Avoid late sowing",
+      "Balanced fertilization (do not excess N)",
+      "Control volunteer wheat plants"
+    ]
+  },
+  "Wheat Stem fly": {
+    "disease_name": "Stem Fly",
+    "crop_type": "Wheat",
+    "description": "Maggots bore into the stem destroying central shoot.",
+    "symptoms": [
+      "Central shoot dries up (Dead Heart)",
+      "Plant becomes stunted/bushy",
+      "White heads with empty grains",
+      "Stem easily pulled out"
+    ],
+    "management_steps": [
+      "Apply Phorate 10G granules in soil",
+      "Spray Quinalphos or Dimethoate",
+      "Remove and destroy dead hearts"
+    ],
+    "prevention": [
+      "Timely sowing",
+      "Higher seed rate to compensate loss",
+      "Crop rotation",
+      "Balanced nutrition"
+    ]
+  },
+  "Wheat aphid": {
+    "disease_name": "Wheat Aphids",
+    "crop_type": "Wheat",
+    "description": "Sucking pests that cluster on leaves and earheads, excreting honeydew.",
+    "symptoms": [
+      "Colonies of green/brown insects on leaves/ears",
+      "Yellowing and curling of leaves",
+      "Honeydew and sooty mold",
+      "Stunted growth"
+    ],
+    "management_steps": [
+      "Spray Imidacloprid or Thiamethoxam",
+      "Use Dimethoate if population is high",
+      "Conservation of Ladybugs (predators)"
+    ],
+    "prevention": [
+      "Late sowing increases risk (Sow in time)",
+      "Avoid excess nitrogen",
+      "Install yellow sticky traps",
+      "Use bio-agents like Chrysoperla "
+    ]
+  },
+  "Wheat black rust": {
+    "disease_name": "Black Stem Rust",
+    "crop_type": "Wheat",
+    "description": "Severe rust attacking stems, causing dark brown to black pustules.",
+    "symptoms": [
+      "Elongated dark brown/reddish pustules on STEMS",
+      "Pustules rupture releasing dusty spores",
+      "Lesions turn black as crop matures",
+      "Grains shrivel and lodging occurs"
+    ],
+    "management_steps": [
+      "Spray Propiconazole or Tebuconazole immediately",
+      "Mancozeb (Dithane M-45) prevents spread",
+      "Destruction of infected hosts"
+    ],
+    "prevention": [
+      "Use resistant varieties (Sonalika, etc.)",
+      "Eradicate alternate host (Barberry bush)",
+      "Avoid late maturing varieties",
+      "Optimum sowing time"
+    ]
+  },
+  "Wheat leaf blight": {
+    "disease_name": "Leaf Blight (Spot Blotch)",
+    "crop_type": "Wheat",
+    "description": "Fungal disease causing brown lesions, severe in warm humid areas.",
+    "symptoms": [
+      "Small oval to elongated light brown spots",
+      "Spots enlarge and coalesce killing the leaf",
+      "Blight appearance starting from lower leaves",
+      "Black point on grains"
+    ],
+    "management_steps": [
+      "Spray Propiconazole or Hexaconazole",
+      "Mancozeb application at boot leaf stage",
+      "Seed treatment with Carboxin"
+    ],
+    "prevention": [
+      "Use treated seeds",
+      "Grow resistant varieties",
+      "Late sowing should be avoided",
+      "Balanced use of fertilizer"
+    ]
+  },
+  "Wheat mite": {
+    "disease_name": "Wheat Mites",
+    "crop_type": "Wheat",
+    "description": "Tiny pests causing stippling and discoloration of leaves.",
+    "symptoms": [
+      "Leaves show white speckling/streaking",
+      "Leaves turn yellow or bronzed",
+      "Plants look water-stressed",
+      "Webbing may be visible in severe cases"
+    ],
+    "management_steps": [
+      "Spray Ethion 50 EC or Dimethoate",
+      "Apply Spiromesifen if resistant",
+      "Irrigate field to reduce mite stress"
+    ],
+    "prevention": [
+      "Remove grass weeds",
+      "Avoid water stress",
+      "Destruction of volunteer wheat",
+      "Crop rotation"
+    ]
+  },
+  "Wheat powdery mildew": {
+    "disease_name": "Powdery Mildew",
+    "crop_type": "Wheat",
+    "description": "Fungal disease appearing as white powdery growth on leaves.",
+    "symptoms": [
+      "White cottony/powdery patches on leaves/stem",
+      " Patches turn grey-brown later with black dots",
+      "Leaves turn yellow and dry up",
+      "Reduced photosynthesis and yield"
+    ],
+    "management_steps": [
+      "Spray Wettable Sulphur",
+      "Use Propiconazole or Triadimefon",
+      "Improve air circulation"
+    ],
+    "prevention": [
+      "Avoid dense sowing",
+      "Avoid excess nitrogen",
+      "Resistant varieties",
+      "Proper spacing"
+    ]
+  },
+  "Wheat scab": {
+    "disease_name": "Fusarium Head Blight (Scab)",
+    "crop_type": "Wheat",
+    "description": "Fungal disease affecting heads, producing mycotoxins and shriveled grain.",
+    "symptoms": [
+      "Bleached / premature whitening of spikelets",
+      "Pinkish/orange fungal growth at base of glumes",
+      "Shriveled, chalky, lightweight kernels (Tombstones)",
+      "Scab visible on heads"
+    ],
+    "management_steps": [
+      "Spray Tebuconazole or Prothioconazole at flowering",
+      "Control is difficult once symptoms appear",
+      "Harvest early and dry grain quickly"
+    ],
+    "prevention": [
+      "Don't plant wheat after corn/maize",
+      "Deep ploughing of crop residues",
+      "Use resistant varieties",
+      "Clean seed usage"
+    ]
+  },
+  "Wheat___Yellow_Rust": {
+    "disease_name": "Yellow Rust (Stripe Rust)",
+    "crop_type": "Wheat",
+    "description": "Cool season rust causing yellow stripes on leaves.",
+    "symptoms": [
+      "Bright yellow pustules aligned in stripes on leaves",
+      "Yellow dust (spores) on clothes if walked through",
+      "Severe stunting and leaf drying",
+      "Affects glumes and kernels too"
+    ],
+    "management_steps": [
+      "Spray Propiconazole (Tilt) or Tebuconazole",
+      "Triadimefon is also effective",
+      "Apply Mancozeb early"
+    ],
+    "prevention": [
+      "Grow resistant varieties (Most effective)",
+      "Avoid late sowing",
+      "Destroy volunteer wheat",
+      "Balanced NPK application"
+    ]
+  },
+  "Wilt": {
+    "disease_name": "Wilt (Fusarium/Verticillium)",
+    "crop_type": "Cotton/General",
+    "description": "Soil-borne fungal disease blocking vascular system causing wilting.",
+    "symptoms": [
+      "Yellowing of lower leaves",
+      "Drooping and wilting of entire plant",
+      "Brown discoloration of vascular tissue (stem cut)",
+      "Stunted growth"
+    ],
+    "management_steps": [
+      "Drench soil with Carbendazim or Copper Oxychloride",
+      "Apply Trichoderma viride enriched manure",
+      "No effective chemical cure for fully wilted plant"
+    ],
+    "prevention": [
+      "Crop rotation with cereals",
+      "Use wilt-resistant varieties",
+      "Add organic matter/FYM",
+      "Avoid nematode infestation"
+    ]
+  },
+  "Yellow Rust Sugarcane": {
+    "disease_name": "Yellow/Common Rust",
+    "crop_type": "Sugarcane",
+    "description": "Fungal disease causing yellowish spots turning to rust.",
+    "symptoms": [
+      "Elongated yellowish spots on leaves",
+      "Orange-brown powdery pustules",
+      "Leaf breakage and drying",
+      "Reduced cane weight"
+    ],
+    "management_steps": [
+      "Spray Mancozeb or Tridemorph",
+      "Propiconazole application",
+      "Removal of infected leaves"
+    ],
+    "prevention": [
+      "Resistant varieties",
+      "Balanced nutrition",
+      "Avoid high humidity microclimate",
+      "Clean cultivation"
+    ]
+  },
+  "bacterial_blight in Cotton": {
+    "disease_name": "Bacterial Blight",
+    "crop_type": "Cotton",
+    "description": "Bacterial disease causing angular leaf spots and black arm.",
+    "symptoms": [
+      "Angular water-soaked spots on leaves",
+      "Blackening of veins and stems (Black Arm)",
+      "Boll rot with dark lesions",
+      "Premature defoliation"
+    ],
+    "management_steps": [
+      "Spray Copper Oxychloride + Streptocycline",
+      "Seed treatment with antibiotics",
+      "Remove infected plant debris"
+    ],
+    "prevention": [
+      "Use delinted and treated seeds",
+      "Resistant varieties",
+      "Crop rotation",
+      "Potash application"
+    ]
+  },
+  "bollrot on Cotton": {
+    "disease_name": "Boll Rot",
+    "crop_type": "Cotton",
+    "description": "Complex of pathogens causing rotting of developing bolls.",
+    "symptoms": [
+      "Small brown/black spots on bolls",
+      "Bolls turn soft and rotten",
+      "Internal lint discoloration",
+      "Failure of bolls to open"
+    ],
+    "management_steps": [
+      "Control bollworms (primary entry point)",
+      "Spray Copper Oxychloride + Streptocycline",
+      "Improve air circulation (spacing)"
+    ],
+    "prevention": [
+      "Prevent insect damage",
+      "Avoid excessive vegetative growth",
+      "Avoid water pooling",
+      "Optimal spacing"
+    ]
+  },
+  "bollworm on Cotton": {
+    "disease_name": "Cotton Bollworm",
+    "crop_type": "Cotton",
+    "description": "Larvae bore into bolls causing direct yield loss.",
+    "symptoms": [
+      "Holes in bolls with frass",
+      "Damaged squares and flowers",
+      "Larvae seen feeding inside bolls",
+      "Hollowed out bolls"
+    ],
+    "management_steps": [
+      "Spray Indoxacarb, Spinosad, or Emamectin",
+      "Use NPV virus sprays",
+      " Hand pick larvae in small plots"
+    ],
+    "prevention": [
+      "Use Bt Cotton varieties",
+      "Pheromone traps for monitoring",
+      "Bird perches to encourage predation",
+      "Trap cropping with marigold"
+    ]
+  },
+  "cotton mealy bug": {
+    "disease_name": "Mealy Bug",
+    "crop_type": "Cotton",
+    "description": "White waxy insects sucking sap and causing severe stunting.",
+    "symptoms": [
+      "White cottony mass on stems/leaves",
+      "Twisted and bunched top leaves (Bunchy Top)",
+      "Sticky honeydew and sooty mold",
+      "Plants dry up completely"
+    ],
+    "management_steps": [
+      "Spray Profenofos or Chlorpyriphos",
+      "Use Buprofezin or Acetamiprid",
+      "Spot application on infested plants only"
+    ],
+    "prevention": [
+      "Remove alternate weed hosts (Parthenium)",
+      "Destruction of ant nests (ants farm them)",
+      "Clean farm equipment",
+      "Remove first infested plants immediately"
+    ]
+  },
+  "cotton whitefly": {
+    "disease_name": "Whitefly",
+    "crop_type": "Cotton",
+    "description": "Small white flying insects sucking sap and transmitting viruses.",
+    "symptoms": [
+      "Tiny white flies flying when plant shaken",
+      "Leaves turn yellow and oily",
+      "Sooty mold development",
+      "Transmits Leaf Curl Virus"
+    ],
+    "management_steps": [
+      "Spray Diafenthiuron, Pyriproxyfen, or Afidopyropen",
+      "Apply Neem oil mixed with soap",
+      "Use yellow sticky traps"
+    ],
+    "prevention": [
+      "Avoid growing near host crops",
+      "Timely sowing",
+      "Balanced nutrition",
+      "Weed control"
+    ]
+  },
+  "maize ear rot": {
+    "disease_name": "Ear Rot",
+    "crop_type": "Maize",
+    "description": "Fungal infection of the cob/kernels, often producing toxins.",
+    "symptoms": [
+      "Pink, white, or green  mold on kernels",
+      "Discolored kernels",
+      "Husks adhere internally to kernels",
+      "Rotting smell"
+    ],
+    "management_steps": [
+      "No cure for existing rot",
+      "Harvest early to prevent spread",
+      "Dry grain to <14% moisture immediately"
+    ],
+    "prevention": [
+      "Control ear-damaging insects (borers)",
+      "Resistant hybrids",
+      "Avoid moisture stress",
+      "Proper storage"
+    ]
+  },
+  "maize fall armyworm": {
+    "disease_name": "Fall Armyworm",
+    "crop_type": "Maize",
+    "description": "Invasive pest causing wide-scale destruction of maize whorls.",
+    "symptoms": [
+      "Ragged holes in leaves/whorls",
+      "Moist sawdust-like frass in whorl",
+      "Larvae marked with inverted 'Y' on head",
+      "Damage to tassel and cob"
+    ],
+    "management_steps": [
+      "Spray Spinetoram or Emamectin Benzoate",
+      "Apply Chlorantraniliprole",
+      "Apply sand/lime in whorls (traditional)"
+    ],
+    "prevention": [
+      "Pheromone traps",
+      "Deep summer ploughing",
+      "Intercrop with legumes",
+      "Push-Pull strategy (Napier grass/Desmodium)"
+    ]
+  },
+  "maize stem borer": {
+    "disease_name": "Stem Borer",
+    "crop_type": "Maize",
+    "description": "Larvae bore into stem causing dead hearts and tunneling.",
+    "symptoms": [
+      "Pinholes in straight lines on leaves",
+      "Dead Heart (drying of central shoot)",
+      "Tunneling inside stem",
+      "Broken stems"
+    ],
+    "management_steps": [
+      "Apply Carbofuran granules in whorls",
+      "Spray Chlorpyriphos or Dimethoate",
+      "Release Trichogramma parasites"
+    ],
+    "prevention": [
+      "Remove stubbles after harvest",
+      "Intercrop with pulses",
+      "Light traps for moths",
+      "Timely planting"
+    ]
+  },
+  "pink bollworm in cotton": {
+    "disease_name": "Pink Bollworm",
+    "crop_type": "Cotton",
+    "description": "Larvae feed INSIDE seeds and bolls, often undetectable externally.",
+    "symptoms": [
+      "Rosette flowers (flower tips tied together)",
+      "Clean holes on bolls (often sealed)",
+      "Stained lint and double seeds",
+      "Larvae inside seeds"
+    ],
+    "management_steps": [
+      "Spray Pyrethroids (Cypermethrin/Deltamethrin)",
+      "Use Profenofos or Quinalphos",
+      "Pheromone mating disruption paste"
+    ],
+    "prevention": [
+      "Use short duration varieties",
+      "Terminate crop timely (Grazing animals)",
+      "Pheromone traps monitoring",
+      "Destroy cotton stalks"
+    ]
+  },
+  "red cotton bug": {
+    "disease_name": "Red Cotton Bug",
+    "crop_type": "Cotton",
+    "description": "Red bugs that stain lint and damage seeds.",
+    "symptoms": [
+      "Red insects seen on bolls",
+      "Stained lint (Yellow/Reddish)",
+      "Poor seed germination",
+      "Shedding of green bolls"
+    ],
+    "management_steps": [
+      "Spray Phosphamidon or Dimethoate",
+      "Use Neem oil",
+      "Shake plants to drop bugs into kerosene water"
+    ],
+    "prevention": [
+      "Trap crops (Bhindi/Okra)",
+      "Field sanitation",
+      "Collect and destroy bugs manually"
+    ]
+  },
+  "thirps on  cotton": {
+    "disease_name": "Thrips",
+    "crop_type": "Cotton",
+    "description": "Tiny fringed insects scraping leaf surface causing silvery patches.",
+    "symptoms": [
+      "Silvery/bronze patches on underside of leaves",
+      "Leaves become crinkled and cup upward",
+      "Rusty appearance of leaves",
+      "Terminal bud damage"
+    ],
+    "management_steps": [
+      "Spray Fipronil or Spinosad",
+      "Use Imidacloprid or Thiamethoxam",
+      "Neem oil spray"
+    ],
+    "prevention": [
+      "Seed treatment with Imidacloprid",
+      "Maintain active plant growth",
+      "Weed control",
+      "Blue sticky traps"
+    ]
+  }
+}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crop Doctor AI | Accurate Disease Diagnosis</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <!-- Styles -->
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+    <div class="main-layout">
+        <!-- Sidebar / Navigation -->
+        <nav class="sidebar">
+            <div class="logo">
+                <div class="logo-icon"><i class="ph-fill ph-plant"></i></div>
+                <span>CropDoctor</span>
+            </div>
+
+            <div class="nav-links">
+                <button class="nav-btn active" onclick="showSection('diagnosis')">
+                    <i class="ph ph-scan"></i> Diagnosis
+                </button>
+                <button class="nav-btn" onclick="showSection('history')">
+                    <i class="ph ph-clock-counter-clockwise"></i> History
+                </button>
+            </div>
+
+            <div class="nav-footer">
+                <p>v2.0.0</p>
+            </div>
+        </nav>
+
+        <!-- Main Content Area -->
+        <main class="content-area">
+
+            <!-- SECTION: Diagnosis -->
+            <div id="diagnosis-section" class="section active">
+                <header class="section-header">
+                    <h1>New Diagnosis</h1>
+                    <p>Upload a clear photo of a crop leaf to identify diseases.</p>
+                </header>
+
+                <div class="diagnosis-container">
+                    <!-- Upload Box -->
+                    <div class="upload-box" id="dropZone">
+                        <div class="upload-content">
+                            <i class="ph ph-cloud-arrow-up"></i>
+                            <h3>Upload Image</h3>
+                            <p>Drag & drop or Click to browse</p>
+                            <input type="file" id="fileInput" accept="image/*" hidden>
+                        </div>
+                    </div>
+
+                    <!-- Loading State -->
+                    <div class="loading-state hidden" id="loadingState">
+                        <div class="spinner"></div>
+                        <p>Analyzing leaf structure...</p>
+                    </div>
+
+                    <!-- Error State -->
+                    <div class="error-card hidden" id="errorCard">
+                        <i class="ph ph-warning-circle"></i>
+                        <div class="error-text">
+                            <h4>Analysis Failed</h4>
+                            <p id="errorMessage">This doesn't look like a crop.</p>
+                        </div>
+                        <button onclick="resetDiagnosis()">Try Again</button>
+                    </div>
+
+                    <!-- Result Card -->
+                    <div class="result-card hidden" id="resultCard">
+                        <div class="result-image">
+                            <img id="resImage" src="" alt="Uploaded Image">
+                            <div class="confidence-tag" id="resConfidence">98% Match</div>
+                        </div>
+
+                        <div class="result-details">
+                            <div class="disease-title">
+                                <span class="badge">Detected Issue</span>
+                                <h2 id="resName">Tomato Blight</h2>
+                            </div>
+
+                            <div class="tabs">
+                                <button class="tab-link active" onclick="openTab('symptoms')">Symptoms</button>
+                                <button class="tab-link" onclick="openTab('treatment')">Treatment</button>
+                                <button class="tab-link" onclick="openTab('prevention')">Prevention</button>
+                            </div>
+
+                            <div class="tab-content">
+                                <ul id="symptomsList" class="info-list active-list"></ul>
+                                <ul id="treatmentList" class="info-list"></ul>
+                                <ul id="preventionList" class="info-list"></ul>
+                            </div>
+
+                            <button class="action-btn" onclick="resetDiagnosis()">
+                                <i class="ph ph-plus"></i> Analyze Another
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SECTION: History -->
+            <div id="history-section" class="section">
+                <header class="section-header">
+                    <h1>Scan History</h1>
+                    <p>Your recent diagnosis results.</p>
+                </header>
+
+                <div class="history-grid" id="historyGrid">
+                    <!-- Javascript will populate this -->
+                    <div class="empty-state">
+                        <i class="ph ph-clock"></i>
+                        <p>No history yet.</p>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+
+</html>
